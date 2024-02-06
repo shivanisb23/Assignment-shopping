@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+#categories {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: white;
+  width: 100%;
+  
+}
+
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: rgb(189, 185, 185);
+  color: black;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 2px;
+}
+
+button:hover {
+  background-color: rgb(44, 44, 44);
+  color: white;
+}
+
+button:focus {
+  background-color: black; 
+  color: white;
+}
+
+.product-content {
+  text-align: center;
+}
+
+.image-container {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.image-container img {
+  width: 200px;
+  height: 300px;
+  border-radius: 2px;
+}
+
+.badge {
+  position: absolute;
+  top: -5px;
+  left: 2.5px;
+  background-color: white; 
+  color: black;
+  padding: 2px 4px 2px 4px;
+  border-radius: 2px;
+  width: 106px;
+  height: 18px;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.product-content button {
+  background-color: black;
+  color: white;
+}
+
+.product-title {
+  display: inline-block;
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
